@@ -39,14 +39,6 @@
     UIButton *button = (UIButton *) sender;
     UIViewController *vc = [segue destinationViewController];
     vc.title = button.titleLabel.text;
-    
-    if ([segue.identifier isEqualToString:@"menu01"]) {
-        
-    } else if ([segue.identifier isEqualToString:@"menu02"]) {
-        
-    } else if ([segue.identifier isEqualToString:@"menu03"]) {
-        
-    }
 }
 
 @end

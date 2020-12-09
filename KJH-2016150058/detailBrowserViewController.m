@@ -23,7 +23,7 @@
     self.title = s1;
     self.navHead.topItem.title = s1;
     
-    NSString *url_str = [[NSString stringWithFormat:@"http://14.63.213.214/history_api.php/detail/%@/%@", s1, s2] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSString *url_str = [[NSString stringWithFormat:@"http://.../history_api.php/detail/%@/%@", s1, s2] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]; // 클라우드 서버 폐쇄로 주소 blind
     NSURL *url = [NSURL URLWithString:url_str];
     NSURLRequest *urlRequest = [[NSURLRequest alloc] initWithURL:url];
     
